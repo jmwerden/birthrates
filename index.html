@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Darkroom Ltd. — Design & Production Studio in New York and Los Angeles</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="images/favicon3.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css">
+      <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.4.2/css/buttons.dataTables.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobilestyles.css">
+    <link rel="stylesheet" href="css/project3.css">
+
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+    <link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+
+
+
+</head>
+<body>
+
+
+
+    <div class="container-fluid" >
+        <div class="logo" href="http://www.darkroom.ltd" onclick="window.location='http://www.darkroom.ltd'">
+            <div class="flashit col-md-1 col-sm-1" width="102px"></div>
+
+            <div class="col-md-1 col-sm-1"><img src="images/room.png" width="50px"></div>
+    </div>
+        <h1 id="title" style="color:black; margin-top: 3%; font-size:46px"> <u>NEWS</u></p></h1><p>
+</div>
+   <div class="row">
+    <h2>2016 Annual Population Growth Percentages by Nation</h2>
+    </div>
+
+    <iframe src="https://data.worldbank.org/share/widget?indicators=SP.POP.GROW&view=map&year=2016" width='900' height='600' frameBorder='0' scrolling="no" ></iframe>
+    <div id="row" style="color:black; margin-top: 3%;" >
+      <div class="container">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+      <p>The United States populations is growing. However, it is growing at a much lower rate than in previous generations. US population growth is comparable to Russia. Additionally, Africa leads the World in terms of population growth %.</p>
+      </div>
+      </div>
+  </div>
+<div id="chartdiv"></div>
+<div id="row" style="color:black; margin-top: 3%;" >
+  <div class="container">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+  <p>During the baby boom of the 1960s US population growth by % was at its' highest. However, it has tailed off in the recent decades.</p>
+  </div>
+  </div>
+</div>
+<br>
+<div id="row" style="color:black; margin-top: 3%;" >
+  <div class="container">
+    <div class="col-md-3"></div>
+    <div class="col-md-6">
+  <p>The chart below shows the population growth percentange every ten years for 30 randomly selected nations.</p>
+  </div>
+  </div>
+</div>
+<table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+
+                <th>1965</th>
+
+                <th>1975</th>
+
+                <th>1985</th>
+
+                <th>1995</th>
+
+                <th>2005</th>
+
+                <th>2015</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+              <th>Name</th>
+
+              <th>1965</th>
+
+              <th>1975</th>
+
+              <th>1985</th>
+
+              <th>1995</th>
+
+              <th>2005</th>
+
+              <th>2015</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+              <td>Afghanistan</td>
+
+              <td>2.105368751</td>
+
+              <td>2.157653279</td>
+
+              <td>-2.216315406</td>
+
+              <td>5.572581069</td>
+
+              <td>3.870470159</td>
+
+              <td>2.943234185</td>
+            </tr>
+
+            <tr>
+                <td>Australia</td>
+                <td>1.959716895</td>
+                <td>1.231185888</td>
+                <td>1.367346075</td>
+                <td>1.208019812</td>
+                <td>1.319789554</td>
+                <td>1.391107205</td>
+            </tr>
+            <tr>
+                <td>Botswana</td>
+                <td>2.783057897</td>
+                <td>3.66825247</td>
+                <td>3.2323702</td>
+                <td>2.351838858</td>
+                <td>1.439411021</td>
+                  <td>1.1.855975354</td>
+            </tr>
+            <tr>
+                <td>Chile</td>
+                <td>2.184975809</td>
+                <td>1.627639048</td>
+                <td>1.616889104</td>
+                <td>1.445875446</td>
+                <td>1.078973466</td>
+                  <td>0.841711121</td>
+            </tr>
+            <tr>
+                <td>China</td>
+                <td>2.381368103</td>
+                <td>1.766391782</td>
+                <td>1.361699118</td>
+                <td>1.086509151</td>
+                <td>0.58812499</td>
+                  <td>0.508136747</td>
+            </tr>
+            <tr>
+                <td>Cuba</td>
+                <td>2.094061815</td>
+                <td>1.312487797</td>
+                <td>0.656020687</td>
+                <td>0.50980437</td>
+                <td>0.153535138</td>
+                  <td>0.189204124</td>
+            </tr>
+            <tr>
+                <td>Germany</td>
+
+                  <td>.855975354</td>
+                <td>-0.372846359</td>
+                <td>-0.223489902</td>
+                <td>0.293904444</td>
+                <td>-0.056778262</td>
+                <td>0.865702644</td>
+
+            </tr>
+            <tr>
+                <td>Denmark</td>
+                <td>0.779239735</td>
+                <td>0.288268796</td>
+                <td>0.040526889</td>
+                <td>0.520962181</td>
+                <td>0.275481733</td>
+                  <td>0.70642385</td>
+            </tr>
+
+            <tr>
+                <td>Finland</td>
+                <td>0.333374795</td>
+                <td>0.443863076</td>
+                <td>0.417068904</td>
+                <td>0.381655333</td>
+                <td>0.342248594</td>
+                  <td>0.329383886</td>
+            </tr>
+            <tr>
+                <td>Ghana</td>
+                <td>2.591607196</td>
+                <td>2.337364121</td>
+                <td>3.237296742</td>
+                <td>2.600839647</td>
+                <td>2.612384647</td>
+                  <td>2.274380311</td>
+            </tr>
+            <tr>
+                <td>Hungary</td>
+                <td>0.277287713</td>
+                <td>0.588081809</td>
+                <td>-0.181847163</td>
+                <td>-0.139220004</td>
+                <td>-0.198878843</td>
+                  <td>-0.237855002</td>
+            </tr>
+            <tr>
+                <td>Indonesia</td>
+                <td>2.698730609</td>
+                <td>2.524548074</td>
+                <td>2.117013569</td>
+                <td>1.541372521</td>
+                <td>1.3759456</td>
+                  <td>1.181013915</td>
+            </tr>
+            <tr>
+                <td>India</td>
+                <td>2.074367085</td>
+                <td>2.32052454</td>
+                <td>2.253971506</td>
+                <td>1.921399359</td>
+                <td>1.584251766</td>
+                  <td>1.167527075</td>
+            </tr>
+            <tr>
+                <td>Ireland</td>
+                <td>0.374313833</td>
+                <td>1.645353656</td>
+                <td>0.160073466</td>
+                <td>0.512695055</td>
+                <td>2.178703014</td>
+                  <td>1.282772382</td>
+            </tr>
+            <tr>
+                <td>Jamaica</td>
+                <td>1.478767047</td>
+                <td>1.47566958</td>
+                <td>1.277713218</td>
+                <td>0.965894179</td>
+                <td>0.580841871</td>
+                  <td>0.343459143</td>
+            </tr>
+            <tr>
+                <td>Jordan</td>
+                <td>6.254519975</td>
+                <td>2.856071984</td>
+                <td>4.072042227</td>
+                <td>3.946410673</td>
+                <td>3.173967147</td>
+                  <td>3.896131218</td>
+            </tr>
+            <tr>
+                <td>Japan</td>
+                <td>2.783057897</td>
+                <td>3.66825247</td>
+                <td>3.2323702</td>
+                <td>2.351838858</td>
+                <td>1.439411021</td>
+                  <td>1.1.855975354</td>
+            </tr>
+            <tr>
+                <td>Kazakhstan</td>
+                <td>2.813785568</td>
+                <td>1.315165406</td>
+                <td>1.234327643</td>
+                <td>-1.752259011</td>
+                <td>0.888891382</td>
+                  <td>1.463577578</td>
+            </tr>
+            <tr>
+                <td>Kuwait</td>
+                <td>10.76239932</td>
+                <td>6.043328746</td>
+                <td>4.900257964</td>
+                <td>3.351838858</td>
+                <td>3.063370342</td>
+                  <td>3.97406926</td>
+            </tr>
+            <tr>
+                <td>Lithuania</td>
+                <td>1.227445511</td>
+                <td>0.844284714</td>
+                <td>0.859591157</td>
+                <td>-0.769728018</td>
+                <td>-1.628401126</td>
+                  <td>-0.940753797</td>
+            </tr>
+            <tr>
+                <td>Malaysia</td>
+                <td>2.903210983</td>
+                <td>2.42285981</td>
+                <td>2.645880228</td>
+                <td>2.513332384</td>
+                <td>1.909365769</td>
+                  <td>1.624739528</td>
+            </tr>
+            <tr>
+                <td>Nicaragua</td>
+                <td>2.977574786</td>
+                <td>3.08262772</td>
+                <td>2.451918217</td>
+                <td>2.003865823</td>
+                <td>1.302755782</td>
+                  <td>1.124975819</td>
+            </tr>
+            <tr>
+                <td>Norway</td>
+                <td>0.777327077</td>
+                <td>0.551888897</td>
+                <td>0.2994715</td>
+                <td>0.51912552</td>
+                <td>0.681072964</td>
+                  <td>0.995084737</td>
+            </tr>
+            <tr>
+                <td>Qatar</td>
+                <td>8.597359664</td>
+                <td>6.735287999</td>
+                <td>8.320446889</td>
+                <td>1.246402888</td>
+                <td>13.07603946</td>
+                  <td>4.412615624</td>
+            </tr>
+            <tr>
+                <td>Saudi Arabia</td>
+                <td>3.492221673</td>
+                <td>5.100056813</td>
+                <td>5.486658764</td>
+                <td>2.293143326</td>
+                <td>2.87182374</td>
+                  <td>2.504137257</td>
+            </tr>
+            <tr>
+                <td>Spain</td>
+                <td>1.085844742</td>
+                <td>1.081293603</td>
+                <td>0.362365565</td>
+                <td>0.44136575</td>
+                <td>1.689349047</td>
+                  <td>-0.071420443</td>
+            </tr>
+            <tr>
+                <td>Tajikistan</td>
+                <td>3.496915283</td>
+                <td>2.836726013</td>
+                <td>3.139800636 </td>
+                <td>1.483354101</td>
+                <td>2.083584227</td>
+                  <td>2.198677024</td>
+            </tr>
+            <tr>
+                <td>Turkey</td>
+                <td>2.38092386</td>
+                <td>2.336229272</td>
+                <td>2.09735009</td>
+                <td>1.589425831</td>
+                <td>1.327634398</td>
+                  <td>1.598008534</td>
+            </tr>
+            <tr>
+                <td>United States</td>
+                <td>1.250171646</td>
+                <td>0.985986067</td>
+                <td>0.886129041</td>
+                <td>1.190787091</td>
+                <td>0.921713167</td>
+                  <td>0.729731987</td>
+            </tr>
+            <tr>
+                <td>Vietnam</td>
+                <td>2.020749785</td>
+                <td>2.342441855</td>
+                <td>2.017913358</td>
+                <td>1.639863103</td>
+                <td>1.166721103</td>
+                  <td>1.079146769</td>
+            </tr>
+
+
+        </tbody>
+    </table>
+    <div id="row" style="color:black; margin-top: 3%;" >
+      <div class="container">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+      <p><u>Credits</u></p>
+      <br>
+      <p>The World Bank, AMTAbles, datatables.net</p>
+      </div>
+      </div>
+    </div>
+<script>
+
+
+
+var chart = AmCharts.makeChart( "chartdiv", {
+  "type": "serial",
+  "theme": "light",
+  "dataProvider": [ {
+    "country": "1960",
+    "visits": 1.701992777
+  }, {
+    "country": "1965",
+    "visits": 1.250171646
+  }, {
+    "country": "1970",
+    "visits": 1.165002667
+  }, {
+    "country": "1975",
+    "visits": 0.985986067
+  }, {
+    "country": "1980",
+    "visits": 0.959589923
+  }, {
+    "country": "1985",
+    "visits": 0.886129041
+  }, {
+    "country": "1990",
+    "visits": 1.12965052
+  }, {
+    "country": "1995",
+    "visits": 1.190787091
+  }, {
+    "country": "2000",
+    "visits": 1.112768997
+  }, {
+    "country": "2005",
+    "visits": 0.921713167
+  }, {
+    "country": "2010",
+    "visits": 0.836421536
+  }, {
+    "country": "2015",
+    "visits": 0.729731987
+  },  ],
+  "valueAxes": [ {
+    "gridColor": "#FFFFFF",
+    "gridAlpha": 0.2,
+    "dashLength": 0
+  } ],
+  "gridAboveGraphs": true,
+  "startDuration": 1,
+  "graphs": [ {
+    "balloonText": "[[category]]: <b>[[value]]</b>",
+    "fillAlphas": 0.8,
+    "lineAlpha": 0.2,
+    "type": "column",
+    "valueField": "visits"
+  } ],
+  "chartCursor": {
+    "categoryBalloonEnabled": false,
+    "cursorAlpha": 0,
+    "zoomable": false
+  },
+  "categoryField": "country",
+  "categoryAxis": {
+    "gridPosition": "start",
+    "gridAlpha": 0,
+    "tickPosition": "start",
+    "tickLength": 20
+  },
+  "export": {
+    "enabled": true
+  }
+
+} );
+</script>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+  <script src="js/scripts.js"></script>
+<!--
+<script>
+
+function on() {
+    document.getElementById("overlay").style.display = "block";
+}
+
+function off() {
+    document.getElementById("overlay").style.display = "none";
+}
+
+</script>
+-->
+
+
+</body>
+</html>

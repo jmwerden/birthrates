@@ -1,0 +1,149 @@
+
+.skyouter{
+	position:fixed;
+	height:100%;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:1;
+}
+
+.sky {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  margin: auto;
+  background: transparent;
+  background: transparent;
+  background-size: 100% 100%;
+  -webkit-animation: sky 50s ease infinite;
+  animation: sky 50s ease infinite;
+  
+}
+
+.sky  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: -apple-system, sans-serif;
+  font-size: 36px;
+  color: white;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+}
+.emoji {
+  display: block;
+  position: relative;
+  top: -10px;
+  color: #ee2690;
+  -webkit-animation: rain linear infinite;
+          animation: rain linear infinite;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+/*
+.emoji:hover {
+  cursor: url('../images/hoversquare.png') 25 15, auto;
+}
+*/
+
+.iwazaru {
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+    color: black;
+}
+
+.bomb {
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+     color: black;
+}
+
+.fire {
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+     color: black;
+}
+
+.percent {
+  -webkit-animation-duration: 7s;
+          animation-duration: 7s;
+     color: black;
+}
+.grape {
+  -webkit-animation-duration: 7.5s;
+          animation-duration: 7.5s;
+     color: black;
+}
+.grape1 {
+  -webkit-animation-duration: 4.5s;
+          animation-duration: 4.5s;
+     color: black;
+}
+.grape2{
+  -webkit-animation-duration: 6.5s;
+          animation-duration: 6.5s;
+     color: black;
+}
+.heart {
+  -webkit-animation-duration: 5.5s;
+          animation-duration: .5s;
+     color: black;
+}
+
+@-webkit-keyframes sky {
+  0% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0;
+  }
+}
+
+@keyframes sky {
+  0% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 50% 0;
+  }
+}
+@-webkit-keyframes rain {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+@keyframes rain {
+  from {
+    top: 0;
+  }
+  to {
+    top: 100%;
+  }
+}
+
+
+.skyouter{
+	position:fixed;
+	height:100%;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:1;
+}
